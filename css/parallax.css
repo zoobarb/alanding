@@ -1,0 +1,81 @@
+/*
+|----------------------------------------------------------------------------
+	ALanding - Responsive Multipurpose Landing Page Template main CSS
+	Author: MGScoder
+	Author URL: https://themeforest.net/user/mgscoder
+|----------------------------------------------------------------------------
+*/
+
+/*
+|----------------------------------------------------------------------------
+	parallax
+|----------------------------------------------------------------------------
+*/
+.parallax::before {
+    background-color: rgba(0, 0, 0, 0.8);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.parallax {
+	background-attachment: fixed;
+	background-color: #f7f7f7;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+}
+.parallax .container {
+    position: relative;
+}
+.parallax h2.section-title {
+    color: #fff;
+}
+
+/*
+|----------------------------------------------------------------------------
+	features
+|----------------------------------------------------------------------------
+*/
+#features.parallax {
+    background-image: url("../images/background/bg-5.jpg");
+}
+
+/*
+|----------------------------------------------------------------------------
+	design-area
+|----------------------------------------------------------------------------
+*/
+#design-area.parallax {
+    background-image: url("../images/background/bg-3.jpg");
+}
+
+/*
+|----------------------------------------------------------------------------
+	TESTIMONIAL
+|----------------------------------------------------------------------------
+*/
+#testimonials.parallax {
+    background-image: url("../images/background/bg-1.jpg");
+}
+
+/*
+|----------------------------------------------------------------------------
+	success-story
+|----------------------------------------------------------------------------
+*/
+#success-story.parallax {
+    background-image: url("../images/background/bg-2.jpg");
+}
+
+/*
+|----------------------------------------------------------------------------
+	contact
+|----------------------------------------------------------------------------
+*/
+#contact.parallax {
+    background-image: url("../images/background/bg-4.jpg");
+}
